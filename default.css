@@ -199,7 +199,8 @@ img.right {
 .title {
 	margin: 0;
 	padding-bottom: 6px;
-	background: url(images/img01.jpg) no-repeat right 50%;
+	background: url(images/logo_astrabot_green_on_black.svg) no-repeat right 50%;
+	background-size: 20px 20px;
 	font-weight: normal;
 }
 
@@ -228,7 +229,7 @@ img.right {
 .links a {
 	margin-left: 15px;
 	padding-left: 10px;
-	background: url(images/img02.gif) no-repeat left 50%;
+	background: url(images/links.gif) no-repeat left 50%;
 	border: none;
 }
 
