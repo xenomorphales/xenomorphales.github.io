@@ -1,0 +1,39 @@
+---
+layout: default
+title: team
+---
+{% for member in site.members %}
+<div class="post">
+  {% if member.name != null %}
+  <h1 class="title">
+    <a href="{{member.website}}">{{member.name}}</a>
+  </h1>
+  <p class="byline">
+    <small>Alias {{member.pseudo}}</small>
+  </p>
+  {% else %}
+  <h1 class="title">
+    <a href="{{member.website}}">{{member.pseudo}}</a>
+  </h1>  
+  <p class="byline">
+  </p>
+  {% endif %}
+  <div class="entry">
+    {% if member.avatar != null %}
+    <img class="left" width="128px" height="128px" src="{{member.avatar}}"/>
+    {% endif %}
+    {{member.content}}
+  </div>
+  <p class="links">
+    {% if member.email != null %}
+    <a href="mailto:{{member.email}}" class="more">Mail</a>
+    {% endif %}
+    {% if member.website != null %}
+    <a href="{{member.website}}" class="more">Web Site</a>
+    {% endif %}
+    {% if member.github != null %}
+    <a href="{{member.github}}" class="more">Github</a>
+    {% endif %}
+  </p>
+</div>
+{% endfor %}

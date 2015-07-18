@@ -70,3 +70,7 @@ kramdown:
 # Custom
 
 excerpt_separator: <!--more-->
+
+collections:
+  members:
+    output: false

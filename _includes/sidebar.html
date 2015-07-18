@@ -11,18 +11,31 @@
 	{% endfor %}
       </ul>
     </li>
-    <!--
+
     <li>
-      <h2>Recent Comments</h2>
-      <ul>
-	<li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Aliquam libero</a></li>
-	<li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Consectetuer adipiscing elit</a></li>
-	<li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Metus aliquam pellentesque</a></li>
-	<li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Suspendisse iaculis mauris</a></li>
-	<li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Urnanet non molestie semper</a></li>
-	<li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Proin gravida orci porttitor</a></li>
-      </ul>
+      <h2>Team members</h2>
+	<ul>
+	  {% for member in site.members %}
+	  <li>
+	    <a href="{{site.baseurl}}/team.html">
+	      {{member.pseudo}}
+	    </a>
+	  </li>
+	  {% endfor %}
+	</ul>
     </li>
+    <!--
+	<li>
+	  <h2>Recent Comments</h2>
+	  <ul>
+	    <li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Aliquam libero</a></li>
+	    <li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Consectetuer adipiscing elit</a></li>
+	    <li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Metus aliquam pellentesque</a></li>
+	    <li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Suspendisse iaculis mauris</a></li>
+	    <li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Urnanet non molestie semper</a></li>
+	    <li><a href="http://templated.co" rel="nofollow">TEMPLATED</a> on <a href="#">Proin gravida orci porttitor</a></li>
+	  </ul>
+	</li>
     <li>
       <h2>Categories</h2>
       <ul>
