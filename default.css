@@ -37,6 +37,18 @@ h3 {
     font-size: 1em;
 }
 
+div.entry h1 {
+    margin-top: 20px;
+}
+
+div.entry h2 {
+    margin-top: 20px;
+}
+
+div.entry h3 {
+    margin-top: 20px;
+}
+
 ul {
     list-style-image: url(images/img07.gif);
 }
@@ -63,6 +75,10 @@ img.left {
 img.right {
     float: right;
     margin: 0 0 0 20px;
+}
+
+div.center {
+    text-align:center;
 }
 
 /* Header */
@@ -238,6 +254,11 @@ img.right {
 }
 
 .links .comments {
+}
+
+div.entry p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* Sidebars */
