@@ -70,3 +70,6 @@ kramdown:
 # Custom
 
 excerpt_separator: <!--more-->
+
+site:
+    url: astralien3000.github.io/projet2016
