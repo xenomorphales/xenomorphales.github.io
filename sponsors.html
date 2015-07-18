@@ -1,0 +1,27 @@
+---
+layout: default
+title: sponsors
+---
+{% for sponsor in site.sponsors %}
+<div class="post">
+  <div style="overflow:hidden">
+  <img class="left" width="128px" height="128px" src="{{sponsor.logo}}" />
+  <h1 class="title">
+    <a href="{{sponsor.website}}">{{sponsor.name}}</a>
+  </h1>
+  <p class="byline">
+  </p>
+  <div class="entry">
+    {% if sponsor.content contains "<!--more-->" %}
+    {{ sponsor.content | split:"<!--more-->" | first % }}
+    {% else %}
+    {{ sponsor.content | strip_html | truncatewords:100 }}
+    {% endif %}
+  </div>
+  </div>
+  <p class="links">
+    <a href="{{page.website}}" class="more">Web Site</a>
+    <a href="{{site.baseurl}}{{sponsor.url}}" class="more">Read more</a>
+  </p>
+</div>
+{% endfor %}

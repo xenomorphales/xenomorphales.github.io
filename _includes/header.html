@@ -1,21 +1,27 @@
 <div id="logo">
-  <h1><a href="#">Showcase </a></h1>
-  <p>Designed By TEMPLATED</p>
+  <h1>Astrabot</h1>
+  <p>team</p>
 </div>
 <div id="menu">
   <ul id="main">
     <li {% if page.title == 'home' %} class="current_page_item"{% endif %}>
       <a href="{{site.baseurl}}/">Homepage</a>
     </li>
+    <li {% if page.title == 'news' %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/news.html">News</a>
+    </li>
+    <li {% if page.title == 'projects' %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/projects.html">Projects</a>
+    </li>
     <li {% if page.title == 'team' %} class="current_page_item"{% endif %}>
       <a href="{{site.baseurl}}/team.html">Team</a>
     </li>
-    <!--
-    <li><a href="#">Products</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Contact Us</a></li>
-    -->
+    <li {% if page.title == 'sponsors' %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/sponsors.html">Sponsors</a>
+    </li>
+    <li {% if page.title == 'thanks' %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/thanks.html">Thanks</a>
+    </li>
   </ul>
   <!--
   <ul id="feed">

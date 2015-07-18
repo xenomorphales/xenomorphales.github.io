@@ -1,0 +1,24 @@
+---
+layout: default
+title: projects
+---
+{% for project in site.projects %}
+<div class="post">
+  <h1 class="title">
+    <a href="{{project.github}}">{{project.title}}</a>
+  </h1>
+  <p class="byline">
+  </p>
+  <div class="entry">
+    {% if project.content contains "<!--more-->" %}
+    {{ project.content | split:"<!--more-->" | first % }}
+    {% else %}
+    {{ project.content | strip_html | truncatewords:100 }}
+    {% endif %}
+  </div>
+  <p class="links">
+    <a href="{{page.website}}" class="more">Web Site</a>
+    <a href="{{site.baseurl}}{{project.url}}" class="more">Read more</a>
+  </p>
+</div>
+{% endfor %}
