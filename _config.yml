@@ -34,7 +34,7 @@ excerpt_separator: "\n\n"
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "" # does not include hostname
+baseurl: "/projet2016" # does not include hostname
 
 # Outputting
 permalink:     date
@@ -70,6 +70,3 @@ kramdown:
 # Custom
 
 excerpt_separator: <!--more-->
-
-site:
-    url: astralien3000.github.io/projet2016
