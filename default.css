@@ -259,6 +259,8 @@ div.center {
 div.entry p {
     text-align: justify;
     text-justify: inter-word;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 /* Sidebars */
