@@ -3,14 +3,15 @@
     <li>
       <h2>Recent Posts</h2>
       <ul>
-	<li><a href="#">Aliquam libero</a></li>
-	<li><a href="#">Consectetuer adipiscing elit</a></li>
-	<li><a href="#">Metus aliquam pellentesque</a></li>
-	<li><a href="#">Suspendisse iaculis mauris</a></li>
-	<li><a href="#">Urnanet non molestie semper</a></li>
-	<li><a href="#">Proin gravida orci porttitor</a></li>
+	{% for post in site.posts limit: 5 %}
+	<li>
+	  <a href="{{post.url}}">{{post.title}}</a>
+	  <em>{{post.date | date: "%Y-%m-%d"}}</em>
+	</li>
+	{% endfor %}
       </ul>
     </li>
+    <!--
     <li>
       <h2>Recent Comments</h2>
       <ul>
@@ -151,5 +152,6 @@
 	<li><a href="#">Proin gravida orci porttitor</a></li>
       </ul>
     </li>
+    -->
   </ul>
 </div>
