@@ -1,4 +1,5 @@
-
+---
+---
 /*
 Design by TEMPLATED
 http://templated.co
@@ -7,7 +8,7 @@ Released for free under the Creative Commons Attribution License
 
 @font-face {
     font-family: Orbitron;
-    src: url('resources/theleagueof-orbitron/webfonts/orbitron-light-webfont.ttf');
+    src: url('{{site.baseurl}}/resources/theleagueof-orbitron/webfonts/orbitron-light-webfont.ttf');
 }
 
 body {
