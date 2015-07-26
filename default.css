@@ -51,6 +51,16 @@ div.entry h3 {
     margin-top: 20px;
 }
 
+div.entry h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.entry h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
 ul {
     list-style-image: url(images/img07.gif);
 }

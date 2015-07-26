@@ -1,9 +1,20 @@
 ---
 pseudo: astralien3000
 name: Loïc Dauphin
-# email: astralien3000@yahoo.fr
+email: astralien3000@yahoo.fr
 github: https://github.com/astralien3000
-avatar: https://avatars0.githubusercontent.com/u/1277843?v=3&s=460
+avatar: images/members/astra.png
 ---
 
-Description du membre de l'équipe.
+#### Rôle
+
+Chef d'équipe
+
+#### Activité
+
+Étudiant en informatique à l'ENSEIRB-MATMECA, troisième année
+
+#### Description
+
+Spécialiste en démolition et en toupie de robots.
+Les rares robots qui survivent à son traitement sont capables de tourner indéfiniment tout en évitant les mains des arbitres qui éssaient de les arrêter.
