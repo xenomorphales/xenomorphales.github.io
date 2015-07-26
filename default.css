@@ -217,7 +217,7 @@ div.center {
 .title {
     margin: 0;
     padding-bottom: 6px;
-    background: url(images/logo_astrabot_green_on_black.svg) no-repeat right 50%;
+    background: url({{site.baseurl}}/images/logo_astrabot_green_on_black.svg) no-repeat right 50%;
     background-size: 20px 20px;
     font-weight: normal;
 }
