@@ -17,4 +17,4 @@ Chef d'équipe
 #### Description
 
 Spécialiste en démolition et en toupie de robots.
-Les rares robots qui survivent à son traitement sont capables de tourner indéfiniment tout en évitant les mains des arbitres qui éssaient de les arrêter.
+Les rares robots qui survivent à son traitement sont capables de tourner indéfiniment tout en évitant les mains des arbitres qui essaient de les arrêter.
