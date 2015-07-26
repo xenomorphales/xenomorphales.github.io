@@ -5,13 +5,13 @@ title: partners
 {% for sponsor in site.sponsors %}
 <div class="post">
   <div style="overflow:hidden">
-  <img class="left" width="128px" height="128px" src="{{sponsor.logo}}" />
   <h1 class="title">
     <a href="{{sponsor.website}}">{{sponsor.name}}</a>
   </h1>
   <p class="byline">
   </p>
   <div class="entry">
+    <img class="left" width="128px" height="128px" src="{{sponsor.logo}}" />
     {% if sponsor.content contains "<!--more-->" %}
     {{ sponsor.content | split:"<!--more-->" | first % }}
     {% else %}
