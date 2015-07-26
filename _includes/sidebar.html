@@ -17,7 +17,7 @@
       <ul>
 	{% for sponsor in site.sponsors %}
 	<li>
-	  <a href="{{sponsor.website}}">{{sponsor.name}}</a>
+	  <a href="{{site.baseurl}}{{sponsor.url}}">{{sponsor.name}}</a>
 	</li>
 	{% endfor %}
       </ul>
@@ -26,15 +26,11 @@
     <li>
       <h2>Friend Teams</h2>
       <ul>
+	{% for friend in site.data.friends %}
 	<li>
-	  <a href="http://eirbot.eirb.fr/">Eirbot</a>
+	  <a href="{{friend.link}}">{{friend.name}}</a>
 	</li>
-	<li>
-	  <a href="http://robotter.free.fr/wp/">Rob'otter</a>
-	</li>
-	<li>
-	  <a href="http://www.labx.fr/">L@Bx</a>
-	</li>
+	{% endfor %}
       </ul>
     </li>
 
@@ -42,31 +38,12 @@
     <li>
       <h2>Links</h2>
       <ul>
+	{% for link in site.data.links %}
 	<li>
-	  <a href="https://github.com/astralien3000/projet2016/issues">Forum</a>
+	  <a href="{{link.url}}">{{link.name}}</a>
 	</li>
-	<li>
-	  <a href="https://github.com/astralien3000/buggybot2">Buggybot</a>
-	</li>
-	<li>
-	  <a href="https://github.com/astralien3000/ceres">Cérès</a>
-	</li>
+	{% endfor %}
       </ul>
     </li>
-      
-    <!--
-	<li>
-	  <h2>Team members</h2>
-	  <ul>
-	    {% for member in site.members %}
-	    <li>
-	      <a href="{{site.baseurl}}/team.html">
-		{{member.pseudo}}
-	      </a>
-	    </li>
-	    {% endfor %}
-	  </ul>
-	</li>
-	-->
   </ul>
 </div>
