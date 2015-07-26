@@ -5,28 +5,14 @@
 <div id="menu">
   <ul id="main">
     <li {% if page.title == 'home' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/">Homepage</a>
+      <a href="{{site.baseurl}}/">home</a>
     </li>
-    <li {% if page.title == 'news' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/news.html">News</a>
+    {% for p in site.pages %}
+    {% if p.title != 'home' and (p.mainpage == nil or p.mainpage == true) %}
+    <li {% if page.title == p.title %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a>
     </li>
-    <li {% if page.title == 'projects' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/projects.html">Projects</a>
-    </li>
-    <li {% if page.title == 'team' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/team.html">Team</a>
-    </li>
-    <li {% if page.title == 'sponsors' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/sponsors.html">Sponsors</a>
-    </li>
-    <li {% if page.title == 'thanks' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/thanks.html">Thanks</a>
-    </li>
+    {% endif %}
+    {% endfor %}
   </ul>
-  <!--
-  <ul id="feed">
-    <li><a href="#">Entries RSS</a></li>
-    <li><a href="#">Comments RSS</a></li>
-  </ul>
-  -->
 </div>
