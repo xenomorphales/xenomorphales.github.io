@@ -1,15 +1,14 @@
 <div id="logo">
   <img class="right" src="{{site.baseurl}}/images/logo_astrabot_green_on_black.svg" width="128px" height="128px" />
   <h1>Xenomorphales</h1>
-  <p>team</p>
 </div>
 <div id="menu">
   <ul id="main">
-    <li {% if page.title == 'home' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/">home</a>
+    <li {% if page.title == 'Accueil' %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/">Accueil</a>
     </li>
     {% for p in site.pages %}
-    {% if p.title != 'home' and (p.mainpage == nil or p.mainpage == true) %}
+    {% if p.title != 'Accueil' and (p.mainpage == nil or p.mainpage == true) %}
     <li {% if page.title == p.title %} class="current_page_item"{% endif %}>
       <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a>
     </li>

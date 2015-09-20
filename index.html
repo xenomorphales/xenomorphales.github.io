@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: Accueil
 ---
 
 {% for post in site.posts %}
@@ -9,13 +9,13 @@ title: home
     <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
   </h1>
   <p class="byline">
-    <small>Posted on {{post.date | date: "%d %b %Y"}} by {{post.author}}</small>
+    <small>Posté le {{post.date | date: "%d %b %Y"}} par {{post.author}}</small>
   </p>
   <div class="entry">
     {{post.excerpt}}
   </div>
   <p class="links">
-    <a href="{{site.baseurl}}{{post.url}}" class="more">Read More</a>
+    <a href="{{site.baseurl}}{{post.url}}" class="more">Lire la suite</a>
   </p>
 </div>
 {% endfor %}
