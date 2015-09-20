@@ -11,7 +11,7 @@ Responsable Cérès et responsable système et réseau
 
 #### Activité
 
-Étudiant en informatique à l'ENSEIRB-MATMECA, troisième année
+- *2012 - 2015* : Étudiant en informatique, spécialité Réseaux et Systèmes Répartis à l'ENSEIRB-MATMECA
 
 #### Description
 
