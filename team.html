@@ -20,7 +20,9 @@ title: Équipe
   {% endif %}
   <div class="entry">
     {% if member.avatar != null %}
-    <img class="left" height="128px" src="{{member.avatar}}"/>
+    <div class="center">
+      <img height="128px" src="{{member.avatar}}"/>
+    </div>
     {% endif %}
     {{member.content}}
   </div>
