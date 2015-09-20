@@ -8,11 +8,12 @@ avatar: images/members/astra.png
 
 #### Rôle
 
-Chef d'équipe
+Chef d'équipe, responsable Buggybot
 
 #### Activité
 
-Étudiant en informatique à l'ENSEIRB-MATMECA, troisième année
+- (2012-2015) Étudiant en informatique à l'ENSEIRB-MATMECA
+- (2015-2016) Ingénieur de recherche à l'INRIA
 
 #### Description
 
