@@ -12,8 +12,8 @@ Chef d'équipe, responsable Buggybot
 
 #### Activité
 
-- (2012-2015) Étudiant en informatique à l'ENSEIRB-MATMECA
-- (2015-2016) Ingénieur de recherche à l'INRIA
+- *2012 - 2015 :* Étudiant en informatique à l'ENSEIRB-MATMECA
+- *2015 - 2016 :* Ingénieur de recherche à l'INRIA
 
 #### Description
 
