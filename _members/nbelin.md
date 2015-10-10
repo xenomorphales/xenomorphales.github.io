@@ -3,6 +3,7 @@ pseudo: GrandFrère
 name: Nicolas Belin
 email: nbelin@outlook.com
 github: https://github.com/nbelin
+avatar: images/members/nbelin.png
 ---
 
 #### Rôle
