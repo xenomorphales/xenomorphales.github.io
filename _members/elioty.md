@@ -15,4 +15,4 @@ Trésorier, responsable Cérès et responsable système et réseau
 
 #### Description
 
-Passioné de robotique depuis son passage à Eirbot, il est également adepte de science-fiction et de culture japonaise.
+Passionné de robotique depuis son passage à Eirbot, il est également adepte de science-fiction et de culture japonaise. Il a également réalisé un asservissement angle/distance d'un robot à deux roues en quatre heures à l'aide d'Aversive++. Le prochain objectif étant de faire faire la toupie à Cérès en moins de deux heures.
