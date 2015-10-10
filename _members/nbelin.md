@@ -17,4 +17,4 @@ Responsable du projet BigBrother
 
 #### Description
 
-Est responsable de la bonne survie du robot adversaire. Ses différentes tentatives de détection des robots ont jusqu'ici été de parfaites réussites (et les quelques accidents subis ont toujours été provoqués par l'adversaire, bien entendu !). La nouvelle technologie développée (BigBrother) permettra-t-elle de faire chutter le nombre de morts ?
+Est responsable de la bonne survie du robot adversaire. Ses différentes tentatives de détection des robots ont jusqu'ici toujours très bien fonctionné (et les quelques accidents subis ont toujours été provoqués par l'adversaire, bien entendu !). La nouvelle technologie développée (BigBrother) permettra-t-elle de faire chutter le nombre de morts ?
