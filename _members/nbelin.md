@@ -12,7 +12,7 @@ Responsable du projet BigBrother
 
 #### Activité
 
-- *2012 - 2015* : Étudiant en informatique à l'ENSEIRB-MATMECA, spécialité Roborique et Apprentissage
+- *2012 - 2015* : Étudiant en informatique à l'ENSEIRB-MATMECA, spécialité Robotique et Apprentissage
 - *2015 - aujourd'hui* : Ingénieur consultant à Grenoble
 
 #### Description
