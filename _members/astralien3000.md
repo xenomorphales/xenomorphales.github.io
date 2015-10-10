@@ -8,7 +8,7 @@ avatar: images/members/astra.png
 
 #### Rôle
 
-Chef d'équipe, responsable Buggybot
+Président, responsable Buggybot
 
 #### Activité
 

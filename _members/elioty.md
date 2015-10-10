@@ -7,7 +7,7 @@ github: https://github.com/Elioty
 
 #### Rôle
 
-Responsable Cérès et responsable système et réseau
+Trésorier, responsable Cérès et responsable système et réseau
 
 #### Activité
 
