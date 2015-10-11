@@ -1,9 +1,12 @@
 - name: Forum
-  url: https://github.com/astralien3000/xenomorphales/issues
+  url: https://github.com/xenomorphales/xenomorphales/issues
 
 - name: Buggybot
-  url: https://github.com/astralien3000/buggybot2
+  url: https://github.com/xenomorphales/buggybot2
 
 - name: Cérès
-  url: https://github.com/astralien3000/ceres
+  url: https://github.com/xenomorphales/ceres
+
+- name: BigBrother
+  url: https://github.com/xenomorphales/bigbrother
 

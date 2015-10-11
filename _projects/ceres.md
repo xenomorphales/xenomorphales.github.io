@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Ceres
-github: https://github.com/astralien3000/ceres
+github: https://github.com/xenomorphales/ceres
 ---
 
 Céres est un robot à roues dont le but est de participer à la coupe de France de robotique.

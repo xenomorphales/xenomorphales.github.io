@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Buggybot
-github: https://github.com/astralien3000/buggybot2
+github: https://github.com/xenomorphales/buggybot2
 ---
 
 <div class="center">
