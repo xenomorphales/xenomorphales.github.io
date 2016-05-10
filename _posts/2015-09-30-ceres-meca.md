@@ -10,8 +10,6 @@ La base roulante de Céres est finie ! La transmission du mouvement et les encod
      <img width="60%" src="{{site.baseurl}}/images/projects/ceres/ceres_base_roulante_1.jpg" />
 </div>
 
-<!--more-->
-
 La base roulante est constituée de deux blocs roue (sur les extrémités du robot), reliés aux moteurs par des courroies. Les roues codeuses sont montées sur ressorts et sont entre les roues motrices, tout en étant le plus éloignées possibles du centre pour garder une précision correcte en angle.
 
 <div class="center">
