@@ -13,7 +13,8 @@ Président, responsable Buggybot
 #### Activité
 
 - *2012 - 2015* : Étudiant en informatique à l'ENSEIRB-MATMECA
-- *2015 - 2016* : Ingénieur de recherche à l'INRIA
+- *2015 - 2016* : Ingénieur de recherche à l'INRIA Bordeaux
+- *2016 - 2019* : Doctorant à l'INRIA Paris-Saclay
 
 #### Description
 
