@@ -1,6 +1,7 @@
 ---
 name: Xavier Maupeu 
 github: https://github.com/darwikey
+avatar: images/members/xavier.jpg
 ---
 
 #### Rôle
