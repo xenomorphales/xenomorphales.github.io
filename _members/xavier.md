@@ -14,4 +14,4 @@ Conception mécanique
 
 #### Description
 
-Spécialiste des catapultes réalisées en acier. On décompte pour l'instant peu de blessés suite à ses prototypes.
+Spécialiste des catapultes en acier. On décompte pour l'instant peu de blessés suite à ses prototypes.
