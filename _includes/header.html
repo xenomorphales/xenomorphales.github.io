@@ -5,14 +5,22 @@
 <div id="menu">
   <ul id="main">
     <li {% if page.title == 'Accueil' %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}/">Accueil</a>
+      <a href="{{site.baseurl}}/index.html">Accueil</a>
     </li>
-    {% for p in site.pages %}
-    {% if p.title != 'Accueil' and (p.mainpage == nil or p.mainpage == true) %}
-    <li {% if page.title == p.title %} class="current_page_item"{% endif %}>
-      <a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a>
+    <li {% if page.title == "À propos" %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/about.html">À propos</a>
     </li>
-    {% endif %}
-    {% endfor %}
+    <li {% if page.title == "Projets" %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/projects.html">Projets</a>
+    </li>
+    <li {% if page.title == "Partenaires" %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/sponsors.html">Partenaires</a>
+    </li>
+    <li {% if page.title == "Équipe" %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/team.html">Équipe</a>
+    </li>
+    <li {% if page.title == "Remerciements" %} class="current_page_item"{% endif %}>
+      <a href="{{site.baseurl}}/thanks.html">Remerciements</a>
+    </li>
   </ul>
 </div>
