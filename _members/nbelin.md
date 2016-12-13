@@ -8,7 +8,7 @@ avatar: images/members/nbelin.png
 
 #### Rôle
 
-Responsable du projet BigBrother
+Réalisateur des balises BigBrother
 
 #### Activité
 
