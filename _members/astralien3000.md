@@ -8,7 +8,7 @@ avatar: images/members/astra.png
 
 #### Rôle
 
-Président, responsable Buggybot
+Réalisateur mécanique et code
 
 #### Activité
 
