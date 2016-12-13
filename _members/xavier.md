@@ -6,7 +6,7 @@ avatar: images/members/xavier.jpg
 
 #### Rôle
 
-Conception mécanique
+Réalisateur mécanique
 
 #### Activité
 
