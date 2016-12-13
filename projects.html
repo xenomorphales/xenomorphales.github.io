@@ -5,20 +5,12 @@ title: Projets
 {% for project in site.projects %}
 <div class="post">
   <h1 class="title">
-    <a href="{{site.baseurl}}{{project.url}}">{{project.title}}</a>
+    <a href="{{project.github}}">{{project.title}}</a>
   </h1>
   <p class="byline">
   </p>
   <div class="entry">
-    {% if project.content contains "<!--more-->" %}
-    {{ project.content | split:"<!--more-->" | first % }}
-    {% else %}
-    {{ project.content | strip_html | truncatewords:100 }}
-    {% endif %}
+    {{ project.content }}
   </div>
-  <p class="links">
-    <a href="{{project.github}}" class="more">Github</a>
-    <a href="{{site.baseurl}}{{project.url}}" class="more">Lire plus</a>
-  </p>
 </div>
 {% endfor %}
