@@ -1,12 +1,5 @@
 - name: Forum
   url: https://github.com/xenomorphales/xenomorphales/issues
 
-- name: Buggybot
-  url: https://github.com/xenomorphales/buggybot2
-
-- name: Cérès
-  url: https://github.com/xenomorphales/ceres
-
-- name: BigBrother
-  url: https://github.com/xenomorphales/bigbrother
-
+- name: Source Code
+  url: https://github.com/xenomorphales/xenomorphales.github.io
