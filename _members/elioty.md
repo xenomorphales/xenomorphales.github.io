@@ -7,7 +7,7 @@ github: https://github.com/Elioty
 
 #### Rôle
 
-Trésorier, responsable Cérès et responsable système et réseau
+Réalisateur électronique et code
 
 #### Activité
 
