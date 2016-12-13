@@ -8,16 +8,25 @@ title: Équipe
   <h1 class="title">
     <a href="{{member.website}}">{{member.name}}</a>
   </h1>
+  {% elsif member.pseudo != null %}
+  <h1 class="title">
+    <a href="{{member.website}}">{{member.pseudo}}</a>
+  </h1>
+  {% else %}
+  <h1 class="title">
+    <a href="{{member.website}}">Membre Anonyme</a>
+  </h1>
+  {% endif %}
+  
+  {% if member.name != null and member.pseudo != null %}
   <p class="byline">
     <small>Alias {{member.pseudo}}</small>
   </p>
   {% else %}
-  <h1 class="title">
-    <a href="{{member.website}}">{{member.pseudo}}</a>
-  </h1>  
   <p class="byline">
   </p>
   {% endif %}
+  
   <div class="entry">
     {% if member.avatar != null %}
     <div class="center">
