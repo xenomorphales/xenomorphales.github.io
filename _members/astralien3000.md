@@ -3,7 +3,7 @@ pseudo: astralien3000
 name: Loïc Dauphin
 email: astralien3000@yahoo.fr
 github: https://github.com/astralien3000
-avatar: images/members/astra.png
+avatar: images/members/astra2017.png
 ---
 
 #### Rôle
