@@ -61,9 +61,12 @@ div.entry h5 {
     padding: 0px;
 }
 
+/*
+This image is not included with the template
 ul {
     list-style-image: url(images/img07.gif);
 }
+*/
 
 a {
     text-decoration: none;

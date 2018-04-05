@@ -13,7 +13,7 @@ title: Partenaires
   <div class="entry">
     <img class="left" width="128px" height="128px" src="{{sponsor.logo}}" />
     {% if sponsor.content contains "<!--more-->" %}
-    {{ sponsor.content | split:"<!--more-->" | first % }}
+    {{ sponsor.content | split:"<!--more-->" | first }}
     {% else %}
     {{ sponsor.content | strip_html | truncatewords:100 }}
     {% endif %}
